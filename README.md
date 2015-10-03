@@ -8,13 +8,10 @@
 - [PSR-4](http://www.php-fig.org/psr/psr-4/)
 - [PSR-0](http://www.php-fig.org/psr/psr-0/) (retrocompat)
 - classMap API
-- [include\_path](http://php.net/manual/fr/ini.core.php#ini.include-path) support
+- [include_path](http://php.net/manual/fr/ini.core.php#ini.include-path) support
 - [HHVM](https://en.wikipedia.org/wiki/HipHop_Virtual_Machine) hack
 - empty namespace support for root autoload path
-- cache for checked class\_exists
-
-*[PSR]:     PHP Standard Recommendation
-*[SPL]:     Standard PHP Library
+- cache for checked class_exists
 
 Methods usage
 -------------
