@@ -13,6 +13,9 @@
 - empty namespace support for root autoload path
 - cache for checked class\_exists
 
+*[PSR]:     PHP Standard Recommendation
+*[SPL]:     Standard PHP Library
+
 Methods usage
 -------------
 
@@ -80,6 +83,3 @@ $autoload->addClassMap([
 	'My\Class2'=>'path/of/myclass2.php',
 ]);
 ```
-
-*[PSR]:     PHP Standard Recommendation
-*[SPL]:     Standard PHP Library
