@@ -9,7 +9,7 @@
 		{
 			"name": "Jo Surikat",
 			"email": "jo@surikat.pro",
-			"homepage": "http://wildsurikat.com/autoload",
+			"homepage": "http://redcatphp.com/autoload",
 			"role": "Developer"
 		}
 	],
@@ -18,7 +18,7 @@
 	},
 	"autoload": {
 		"psr-4":{
-			"Wild\\Autoload\\": ""
+			"RedCat\\Autoload\\": ""
 		}
 	},
 	"minimum-stability": "dev"

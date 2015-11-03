@@ -11,9 +11,9 @@
  * @version 2.1
  * @link http://github.com/surikat/Autoload/
  * @author Jo Surikat <jo@surikat.pro>
- * @website http://wildsurikat.com
+ * @website http://redcatphp.com
  */
-namespace Wild\Autoload;
+namespace RedCat\Autoload;
 class Autoload{
 	protected $namespaces = [];
 	protected $checked = [];
