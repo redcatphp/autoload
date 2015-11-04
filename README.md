@@ -19,7 +19,7 @@ Methods usage
 ### simple [facade](https://en.wikipedia.org/wiki/Facade_pattern) API using global instance
 
 ```php
-use Wild\Autoload\Autoload;
+use RedCat\Autoload\Autoload;
 /* register "MyNamespace\SubSpace" prefix to "myDirectory/src/myNamespacePath" directory */
 Autoload::register('myDirectory/src/myNamespacePath','MyNamespace\SubSpace');
 
