@@ -96,7 +96,7 @@ class LowerCasePSR4{
 		spl_autoload_unregister([$this,'classLoad']);
 	}
 	static function snake($str){
-        return str_replace(' ', '_', strtolower(preg_replace('/([a-z])([A-Z])/', '$1 $2', $str)));
+        return str_replace(' ', '-', strtolower(preg_replace('/([a-z])([A-Z])/', '$1 $2', $str)));
 	}
 }
 
