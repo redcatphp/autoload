@@ -57,7 +57,7 @@ class LowerCasePSR4{
 	protected function findRelative($class,$relative_class,$prefix){		
 		if(isset($this->namespaces[$prefix])){
 			foreach($this->namespaces[$prefix] as $base_dir){
-				$file = $base_dir.strtolower(str_replace('\\', '/', $relative_class)).'.php';
+				$file = $base_dir.static::snake(str_replace('\\', '/', $relative_class)).'.php';
 				if($this->loadFile($file,$class))
 					return true;
 			}
@@ -94,6 +94,9 @@ class LowerCasePSR4{
 	}
 	function splUnregister(){
 		spl_autoload_unregister([$this,'classLoad']);
+	}
+	static function snake($str){
+        return str_replace(' ', '_', strtolower(preg_replace('/([a-z])([A-Z])/', '$1 $2', $str)));
 	}
 }
 
