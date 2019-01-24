@@ -1,3 +1,5 @@
+**No longer actively maintained. I work now with NodeJS and I recommand you to take a look at [di-ninja](https://github.com/di-ninja/di-ninja)**
+
 # Autoload - PHP native dependency manager
 --------
 
